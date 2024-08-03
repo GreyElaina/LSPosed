@@ -45,6 +45,7 @@ jobs:
         with:
           repository: libxposed/api
           path: libxposed/api
+          ref: context
 
       - name: Checkout libxposed/service
         uses: actions/checkout@v3
